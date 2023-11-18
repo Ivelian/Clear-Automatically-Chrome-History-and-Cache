@@ -53,3 +53,16 @@ The second script defines the `eliminar_historial_y_cache_chrome()` function, wh
 
 These scripts would be useful in situations where there is a need to automate the cleaning of Chrome's history and cache, for example, in corporate environments to ensure data privacy and security, or on shared machines where a certain level of privacy is desired.
 
+# Windows Task Scheduler Automation Guide
+
+If you want to automate it, use the Windows Task Scheduler. In my case, I have configured it with 3 triggers on 2 different executables, which you can modify to your liking.
+
+## First Executable
+- **First run**: 8:30 AM
+- **Repeats**: Every 1 hour over a period of 12 hours
+
+## Second Executable
+- **Trigger**: Every time the computer is locked
+
+## Third Executable
+- **Trigger**: When you are inactive for 1 minute
